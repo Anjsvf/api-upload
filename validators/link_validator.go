@@ -49,7 +49,7 @@ type YouTubeAPIResponse struct {
 	} `json:"items"`
 }
 
-/
+
 func ValidateYouTubeExists(videoID, apiKey string) error {
 	if apiKey == "" {
 	
