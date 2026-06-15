@@ -14,31 +14,32 @@ import (
 
 var defaultTags = []models.Tag{
 	
-	{Name: "Jogos", Slug: "jogos", Emoji: "🎮"},
-	{Name: "nofap/pornografia", Slug: "nofap-pornografia", Emoji: "🔞"},
-	{Name: "Redes Sociais", Slug: "redes-sociais", Emoji: "📱"},
-	{Name: "Séries e TV", Slug: "series-tv", Emoji: "📺"},
+	{Name: "Jogos", Slug: "jogos", Emoji: "#"},
+	{Name: "nofap/pornografia", Slug: "nofap-pornografia", Emoji: "#"},
+	{Name: "Redes Sociais", Slug: "redes-sociais", Emoji: "#"},
+	{Name: "Procastinação", Slug: "procastinacao", Emoji: "#"},
+
 	
- 
 	// Vícios sexuais
-	{Name: "Masturbação", Slug: "masturbacao", Emoji: "🚫"},
-	{Name: "Sexo Compulsivo", Slug: "sexo-compulsivo", Emoji: "❤️"},
+	{Name: "Masturbação", Slug: "masturbacao", Emoji: "#"},
+	{Name: "Sexo Compulsivo", Slug: "sexo-compulsivo", Emoji: "#"},
+	{Name: "Motivação", Slug: "motivacao", Emoji: "#"},
  
 	// Vícios em substâncias
-	{Name: "Álcool", Slug: "alcool", Emoji: "🍺"},
-	{Name: "Cigarro / Nicotina", Slug: "cigarro", Emoji: "🚬"},
-	{Name: "Drogas", Slug: "drogas", Emoji: "💊"},
-	{Name: "Maconha", Slug: "maconha", Emoji: "🌿"},
-	{Name: "Cafeína", Slug: "cafeina", Emoji: "☕"},
-	{Name: "Energéticos", Slug: "energeticos", Emoji: "⚡"},
+	{Name: "Álcool", Slug: "alcool", Emoji: "#"},
+	{Name: "Cigarro / Nicotina", Slug: "cigarro", Emoji: "#"},
+	{Name: "Drogas", Slug: "drogas", Emoji: "#"},
+	{Name: "Maconha", Slug: "maconha", Emoji: "#"},
+	{Name: "Cafeína", Slug: "cafeina", Emoji: "#"},
+	{Name: "Energéticos", Slug: "energeticos", Emoji: "#"},
  
 	// Vícios comportamentais
-	{Name: "Apostas", Slug: "apostas", Emoji: "🎰"},
-	{Name: "Compras Compulsivas", Slug: "compras", Emoji: "🛍️"},
-	{Name: "Compulsão Alimentar", Slug: "alimentar", Emoji: "🍔"},
-	{Name: "roer unhas", Slug: "roer-unhas", Emoji: "💅"},
+	{Name: "Apostas", Slug: "apostas", Emoji: "#"},
+	{Name: "Compras Compulsivas", Slug: "compras", Emoji: "#"},
+	{Name: "Compulsão Alimentar", Slug: "alimentar", Emoji: "#"},
+	{Name: "roer unhas", Slug: "roer-unhas", Emoji: "#"},
 	// Outros
-	{Name: "Outros", Slug: "outros", Emoji: "🔄"},
+	{Name: "Outros", Slug: "outros", Emoji: "#"},
 }
 
 
